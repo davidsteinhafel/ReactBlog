@@ -1,6 +1,5 @@
 import logo from './dave.jpg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
