@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-image: "./pictures/wallpaper.jpg";
+  background-color: #008080;
+  width: 100%;
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #008080;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,7 +29,19 @@
 .App-link {
   color: #61dafb;
 }
+.App-footer {
+  left: 0;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  background-color: #939799;
+  text-align: left;
+  box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a,
+    inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+}
+/* .App-footer-button1 {
 
+} */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

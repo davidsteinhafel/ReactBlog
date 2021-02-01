@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import '98.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Counter from './components/counter';
-import Navigation from './components/navBar'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navigation />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
