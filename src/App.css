@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #008080;
   width: 100%;
+  height: max-content;
 }
 
 .App-logo {
@@ -30,18 +31,23 @@
   color: #61dafb;
 }
 .App-footer {
+  background-image: url("./img/taskbar_95.png");
   left: 0;
   bottom: 0;
   position: relative;
   width: 100%;
-  background-color: #939799;
   text-align: left;
-  box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a,
-    inset -2px -2px #dfdfdf, inset 2px 2px #808080;
 }
-/* .App-footer-button1 {
-
-} */
+.App-start {
+  /* position: -webkit-sticky;
+  position: static;
+  top: 100px; */
+  margin-left: 0.25em;
+  margin-top: 00.25em;
+  max-height: 4vh;
+}
+.App-footer-button1 {
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
