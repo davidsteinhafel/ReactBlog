@@ -1,8 +1,11 @@
+body {
+  margin: 0;
+}
 .App {
   text-align: center;
   background-color: #008080;
   width: 100%;
-  height: max-content;
+  height: 100vh;
 }
 
 .App-logo {
@@ -18,13 +21,15 @@
 
 .App-header {
   background-color: #008080;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 0;
+  height: 95%;
 }
 
 .App-link {
@@ -36,6 +41,7 @@
   bottom: 0;
   position: relative;
   width: 100%;
+  height: 5%;
   text-align: left;
 }
 .App-start {
@@ -46,8 +52,8 @@
   margin-top: 00.25em;
   max-height: 4vh;
 }
-.App-footer-button1 {
-}
+/* .App-footer-button1 {
+} */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
