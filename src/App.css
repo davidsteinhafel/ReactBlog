@@ -49,8 +49,17 @@ body {
   position: static;
   top: 100px; */
   margin-left: 0.25em;
-  margin-top: 00.25em;
+  margin-top: 0.4em;
   max-height: 4vh;
+}
+.App-Clock {
+  position: absolute;
+  right: 0;
+  margin-top: 0.28em;
+  margin-right: 0.25em;
+  border-style: inset;
+  padding: 7px 10px;
+  border-width: 2px;
 }
 /* .App-footer-button1 {
 } */

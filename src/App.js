@@ -2,6 +2,9 @@ import logo from "./img/dave_talk.gif";
 import start from "./img/start.png";
 import "./App.css";
 import "98.css";
+import Clock from "./Clock";
+
+let time = new Date().toLocaleString();
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <a href="https://www.google.com">
           <img src={start} className="App-start" alt="start" />
         </a>
+        <span>
+          <Clock></Clock>
+        </span>
       </footer>
     </div>
   );
