@@ -13,7 +13,10 @@ function App() {
         <a href="https://www.linkedin.com">
           <img src={logo} className="App-logo" alt="logo" />
         </a>
-        <p>David Steinhafel's First React Portfolio/Blog Website</p>
+        <p>
+          David Steinhafel's First React Portfolio/Blog Website with a window's
+          95 theme
+        </p>
         <a
           className="App-link"
           href="https://www.linkedin.com"
