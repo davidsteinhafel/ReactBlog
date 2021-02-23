@@ -21,11 +21,11 @@ body {
 
 .App-header {
   background-color: #008080;
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: top;
+  justify-content: top;
+  object-position: top;
   font-size: calc(10px + 2vmin);
   color: white;
   margin: 0;
@@ -36,7 +36,7 @@ body {
   color: #61dafb;
 }
 .App-footer {
-  background-image: url("./img/taskbar_95.png");
+  background-color: #c9d1cb;
   left: 0;
   bottom: 0;
   position: relative;
@@ -48,18 +48,27 @@ body {
   /* position: -webkit-sticky;
   position: static;
   top: 100px; */
-  margin-left: 0.25em;
-  margin-top: 0.4em;
+  /* margin-left: 0.25em; */
+  margin-top: 1.5px;
+  border-radius: 1.5px;
   max-height: 4vh;
 }
 .App-Clock {
-  position: absolute;
-  right: 0;
-  margin-top: 0.28em;
-  margin-right: 0.25em;
   border-style: inset;
-  padding: 7px 10px;
-  border-width: 2px;
+  position: absolute;
+  padding-left: 90%;
+}
+.App-folder {
+  max-width: 5vh;
+}
+.App-computer {
+  max-width: 4vh;
+}
+.App-table {
+  max-width: 13%;
+  margin: 0;
+  text-align: left;
+  border-spacing: 2px;
 }
 /* .App-footer-button1 {
 } */
