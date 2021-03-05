@@ -22,7 +22,7 @@ class Clock extends React.Component {
     });
   }
   render() {
-    return <span className="App-Clock">{this.state.time}</span>;
+    return <span className="App-clock">{this.state.time}</span>;
   }
 }
 export default Clock;

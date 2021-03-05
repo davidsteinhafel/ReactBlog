@@ -13,23 +13,23 @@ body {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
   background-color: #008080;
   display: flex;
   flex-direction: column;
-  align-items: top;
-  justify-content: top;
-  object-position: top;
+  /* align-items: top; */
+  /* justify-content: top; */
+  /* object-position: top; */
   font-size: calc(10px + 2vmin);
   color: white;
   margin: 0;
-  height: 95%;
+  height: 100%;
 }
 
 .App-link {
@@ -39,24 +39,28 @@ body {
   background-color: #c9d1cb;
   left: 0;
   bottom: 0;
-  position: relative;
+  position: fixed;
   width: 100%;
   height: 5%;
   text-align: left;
+  display: block;
 }
 .App-start {
   /* position: -webkit-sticky;
   position: static;
   top: 100px; */
   /* margin-left: 0.25em; */
-  margin-top: 1.5px;
-  border-radius: 1.5px;
+  /* margin-top: 1.5px;
+  border-radius: 1.5px; */
   max-height: 4vh;
 }
-.App-Clock {
+.App-clock {
   border-style: inset;
-  position: absolute;
-  padding-left: 90%;
+
+  /* position: absolute;
+  align-self: end; */
+  /* position: absolute; */
+  /* padding-left: 90%; */
 }
 .App-folder {
   max-width: 5vh;
